@@ -3,6 +3,7 @@
  - GET, 
  - POST,
  - PATCH, 
+ - PUT,
  - UPDATE,
  - DELETE
 
