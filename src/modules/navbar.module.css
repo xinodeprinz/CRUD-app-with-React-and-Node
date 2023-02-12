@@ -1,0 +1,14 @@
+@import url("./main.css");
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.main {
+  background-color: var(--main);
+  color: white;
+  padding: 1rem 0;
+  font-size: 18px;
+}

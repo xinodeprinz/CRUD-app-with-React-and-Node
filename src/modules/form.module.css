@@ -1,0 +1,117 @@
+.title {
+  color: var(--main);
+  display: inline-block;
+  border-bottom: 3px solid var(--secondary);
+  text-transform: capitalize;
+  padding-bottom: 0.6rem;
+}
+
+.main {
+  margin-top: 2rem;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.add {
+  background-color: var(--main);
+  text-decoration: none;
+  padding: 0 1rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+.add:hover {
+  background-color: var(--secondary);
+}
+
+.background {
+  margin: 2rem 1rem;
+  background-color: white;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.175);
+  padding: 2rem;
+}
+
+.colA input,
+.colA textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 0 0 0 1rem;
+  font-size: 18px;
+}
+
+.colA input:focus,
+.colA textarea:focus {
+  outline: 0;
+  border-color: var(--secondary) !important;
+}
+
+.colA input {
+  height: 3rem;
+}
+
+.colA textarea {
+  padding-top: 1rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2.5rem;
+}
+
+.preview {
+  width: 100%;
+  height: 330px;
+  object-fit: fill;
+  margin-bottom: 0;
+}
+
+.photoBtn,
+.submit {
+  outline: 0;
+  border: 0;
+  margin-top: 0;
+  color: white;
+  height: 3rem;
+  text-transform: capitalize;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.photoBtn {
+  width: 100%;
+  background-color: var(--secondary);
+}
+
+.photoBtn:hover {
+  background-color: var(--main);
+}
+
+.submit {
+  background-color: var(--main);
+  padding: 0 1rem;
+}
+
+.submit:hover {
+  background-color: var(--secondary);
+}

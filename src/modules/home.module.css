@@ -1,0 +1,96 @@
+@import url("main.css");
+
+.photo {
+  width: 60px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.main {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.update,
+.delete,
+.add {
+  text-transform: capitalize;
+  height: 2.5rem;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 0 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.update {
+  background-color: var(--main);
+  padding: 0.69rem 0.5rem;
+}
+
+.update:hover {
+  background-color: var(--secondary);
+}
+
+.delete {
+  background-color: red;
+  margin-left: 0.5rem;
+}
+
+.delete:hover {
+  background-color: brown;
+}
+
+.table thead {
+  text-transform: uppercase;
+}
+
+.table th,
+td {
+  border: 1px solid var(--main);
+  padding: 0.5rem 0.2rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  color: var(--main);
+  display: inline-block;
+  border-bottom: 3px solid var(--secondary);
+  text-transform: capitalize;
+  padding-bottom: 0.6rem;
+}
+
+.add {
+  background-color: var(--main);
+  text-decoration: none;
+  padding: 0 1rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add:hover {
+  background-color: var(--secondary);
+}
