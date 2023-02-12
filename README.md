@@ -5,6 +5,7 @@
  - PATCH, 
  - UPDATE,
  - DELETE
+
 work.
 
 Reactjs is a javascript fontend framework used in web developement while Nodejs is a javascript framework used in web development and also in building backends of software systems. The database used in this project is `MySQL`.
